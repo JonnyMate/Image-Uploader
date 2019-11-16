@@ -1,22 +1,58 @@
-.App {
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.container {
   text-align: center;
+  width: 20%;
+  padding: 10px;
+  margin: 25px auto;
+  background-color: #ff9d00;
+  -webkit-box-shadow: 15px 15px #bd7400;
+          box-shadow: 15px 15px #bd7400;
 }
 
-.App-logo {
-  height: 40vmin;
+.container button {
+  border: none;
+  color: #fff;
+  background-color: #2b2b2b;
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container button:hover {
+  background-color: #383838;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #09d3ac;
+.container-items, .progress, .upload {
+  margin: 10px;
 }
+
+.no-upload {
+  background-color: #ff9d00;
+  width: 200px;
+  margin: 10px auto;
+  border-bottom: 2px solid #000;
+}
+
+.image {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.image img {
+  -webkit-box-shadow: 0px 0px 20px #000000;
+          box-shadow: 0px 0px 20px #000000;
+}
+/*# sourceMappingURL=App.css.map */
